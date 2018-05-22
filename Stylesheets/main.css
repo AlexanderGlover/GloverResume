@@ -1,7 +1,7 @@
 body{
   /*background-color: #0A4646;*/
   /*background-color: #282828;*/
-background-color: #717171;
+background-color: rgb(144, 171, 53);
   font-family: montserratBlackWebfont;
   color: black;
 }
@@ -9,7 +9,7 @@ background-color: #717171;
 div.mainContainer{
   /*background-color: #262626;*/
   /*background-color: #080808;*/
-  height: 90%;
+  height: 95%;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   width: 80%;
@@ -24,9 +24,9 @@ div.titleBar{
   height: 110px;
   width: calc(100%-10px);
   /*background-color: #080808;*/
-  background-color: white;
+  background-color: #d3dcc8;
   box-shadow: 0px 0px 15px 0.1px black;
-  color: #3A4482;
+  color: black;
   position: relative;
   z-index: 1;
   border-radius: 15px 15px 0px 0px
@@ -35,6 +35,13 @@ div.titleBar{
 img.icon{
   height: 110px;
   width: 110px;
+}
+
+img.footerLogo
+{
+  height: 20px;
+  width: 20px;
+  margin-top: 2px;
 }
 
 div.iconImage{
@@ -56,26 +63,42 @@ div.menuBar{
   height: 30px;
   /*box-shadow: 0px 0px 0.5px 0.75px #009791;*/
   padding-top: 10px;
-  color: white;
+  color: black;
   position: relativie;
   z-index: -1;
 }
 
 div.menuButton{
   float: left;
-  padding-left: 30px;
+  padding-left: 15px;
+}
+
+div.contentBody{
+  padding-left: 0px;
+  height: calc(100% - 80px);
 }
 
 div.pageContents{
   width: calc(100%-40px);
-  height: calc(100% - 171px);
-  background-color: white;
+  height: calc(100% - 235px);
+  background-color: #d3dcc8;
   box-shadow: 0px 0px 15px 0.1px black;
   font-family: montserratRegularWebfont;
   padding:20px;
   padding-top: 15px;
   padding-bottom: 10px;
   border-radius: 0px 0px 15px 15px;
+}
+
+div.footer{
+  height:20px;
+  padding: 10px;
+  align-content: center;
+}
+
+div.footerButton{
+  float: left;
+  padding-left: 50px;
 }
 
 p{
@@ -87,19 +110,45 @@ p{
   font-family: Gotham;
 }
 
+
+h2{
+  font-family: mrs_saint_delafieldregular;
+  font-weight: 400;
+}
+
 a{
   font-weight: 600;
   text-decoration: none;
-  color: white  ;
+  color: #d3dcc8;
+  font-family: montserratRegularWebfont;
+}
+
+a.inText{
+  color: #3A4482;
+  font-weight: 100;
+  text-decoration: underline;
+}
+
+a.footerButton{
+  color: black;
+  font-weight: 100;
+  font-decoration: underline;
 }
 
 p1{
   font-size: 17.5px;
+    line-height: 25px;
 }
-
 p2{
   font-size: 18px;
 }
+p3{
+  font-size: 20px;
+  font-weight: 100;
+  color: blue;
+  font-decoration: underline;
+}
+
 
 /* FONTS */
 @font-face {
@@ -136,6 +185,14 @@ p2{
     font-family: 'montserratRegularWebfont';
     src: url('Fonts/montserrat-regular-webfont.woff2') format('woff2'),
          url('Fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mrs_saint_delafieldregular';
+    src: url('Fonts/mrssaintdelafield-regular-webfont.woff2') format('woff2'),
+         url('Fonts/mrssaintdelafield-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
