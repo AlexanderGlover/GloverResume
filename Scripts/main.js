@@ -1,7 +1,7 @@
 function setHovered(ele){
-  ele.style.color = "#00205B";
+  ele.style.color = "#3A4482";
 }
 
 function setUnHovered(ele){
-  ele.style.color = "#000000";
+  ele.style.color = "#FFFFFF";
 }
