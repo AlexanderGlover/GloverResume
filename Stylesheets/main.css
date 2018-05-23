@@ -75,7 +75,8 @@ div.menuButton{
 
 div.contentBody{
   padding-left: 0px;
-  height: calc(100% - 80px);
+  padding-top: 10px;
+  height: calc(100% - 50px);
 }
 
 div.pageContents{
@@ -110,6 +111,9 @@ p{
   font-family: Gotham;
 }
 
+h1{
+  margin: 0px;
+}
 
 h2{
   font-family: mrs_saint_delafieldregular;
@@ -130,7 +134,7 @@ a.inText{
 }
 
 a.footerButton{
-  color: black;
+  color: blue;
   font-weight: 100;
   font-decoration: underline;
 }
