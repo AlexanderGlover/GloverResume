@@ -1,7 +1,22 @@
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   /*background-color: #0A4646;*/
   /*background-color: #282828;*/
-background-color: rgb(144, 171, 53);
+  background-color: #6c8a4e;
+  /*background-color: rgb(124, 151, 33);*/
   font-family: montserratBlackWebfont;
   color: black;
 }
@@ -151,6 +166,12 @@ p3{
   font-weight: 100;
   color: blue;
   font-decoration: underline;
+}
+
+p4{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
 }
 
 
